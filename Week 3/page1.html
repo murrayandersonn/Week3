@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css"> 
+</head>
+
+<body class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My Music</a>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <br><br>
+  <div class="page-header">
+    <h2>My Favorite Artists</h1><br>
+  </div>
+  <p>Here are some of my favorite artists and some of their albums.</p>
+  <!--this is a table I made to show some of my favorite artists and I made sure to make all the albums the same size. Used bootstrap to give it a border and striped pattern-->
+  <div>
+    <table class="table table-sm table-striped table-bordered">
+      <tr>
+        <td>Mac Demarco</td>
+        <td>
+          <img src="images\2.jpg" width="100px" class="img-thumbnail" alt="2 by Mac Demarco">
+          <img src="images\saLAD DAYS.jpg" width="100px" class="img-thumbnail" alt="Salad Days by Mac Demarco">
+          <img src="images\THIS OLD DOG.png" width="100px" class="img-thumbnail" alt="This Old Dog by Mac Demarco">
+        </td>
+      </tr>
+      <tr>
+        <td>The Beatles</td>
+        <td>
+          <img src="images\Rubber-Soul-Beatles.webp" width="100px" class="img-thumbnail" alt="Rubber Soul by The Beatles">
+          <img src="images\Beatles_-_Abbey_Road.jpg" width="100px" class="img-thumbnail" alt="Abbey Road by The Beatles">
+        </td>
+      </tr>
+      <tr>
+        <td>Tame Impala</td>
+        <td>
+          <img src="images\Tame_Impala_-_Currents.png" width="100px" class="img-thumbnail" alt="Currents by Tame Impala">
+          <img src="images\images.jpg" width="100px" class="img-thumbnail" alt="The Slow Rush by Tame Impala">
+        </td>
+      </tr>
+      <tr>
+        <td>Thundercat</td>
+        <td>
+          <img src="images\Cover_art_for_It_Is_What_It_Is_by_Thundercat.jpg" width="100px" class="img-thumbnail" alt="Its Is What It Is by Thundercat">
+          <img src="images\DrunkThundercat.jpg" width="100px" class="img-thumbnail" alt="Drunk by Thundercat">
+        </td>
+      </tr>
+      <tr>
+        <td>Jimi Hendrix</td>
+        <td>
+          <img src="images\Axiscover.jpg" width="100px" class="img-thumbnail" alt="Axis:Bold As Love by Jimi Hendrix">
+          <img src="images\81ru0qz-ntl-_sl1500_.webp" width="100px" class="img-thumbnail" alt="Are You Experienced by Jimi Hendrix">
+          <img src="images\Jimi_Hendrix_-_Electric_Ladyland.jpg" width="100px" class="img-thumbnail" alt="Electric Ladyland by Jimi Hendrix">
+        </td>
+      </tr>
+    </table>
+  </div>
+    <div>
+    <!--Here is my form where you can write your favorite artist and album-->
+      <div class="input-group">
+        <span class="input-group-text">Favorite Artist and Album</span>
+        <input type="text" aria-label="Artist" class="form-control">
+        <input type="text" aria-label="Album" class="form-control">
+      </div>
+      <button type="button" class="btn btn-primary">Submit</button>
+    </div>
+</body>
+</html>
+<!--
+  this was for making my table so I didn't have to type it over and over
+  <img src="" width="100px" class="img-thumbnail" alt=""> -->
